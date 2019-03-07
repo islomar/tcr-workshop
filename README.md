@@ -1,6 +1,8 @@
 # TCR workshop
 Information and instructions for trying the TCR workflow (test && commit || revert) as first described [here](https://medium.com/@kentbeck_7670/test-commit-revert-870bbd756864).
 
+This repository contains scripts for a Python and a Java example, each of them in their own folders.
+
 
 ## Prerequisites
 * You need Git installed.
@@ -26,11 +28,11 @@ There are several options for configuring your local environment so that you cod
 * Option 1:
     - Use a plugin on your favourite IDE. For example, in IntelliJ you have "Limited WIP": https://github.com/dkandalov/limited-wip
 * Option 2:
-    - A more agnostic solution: use the scripts included under the folder `/scripts` of this repo (or create your own).
+    - A more agnostic solution: use the scripts included under the folder `/scripts` of each java/python folder of this repo (or create your own).
     - You need to install `inotifywait` or something similar
         - E.g. in Ubuntu run `sudo apt-get install inotify-tools`
         - On Mac OS X: https://superuser.com/questions/371354/inotifywait-alternative-command-for-mac
-    - Run `./watch.sh`
+    - From the specific folder (e.g. `tcr-python`), run `./watch.sh`
 
 
 # How to squash
