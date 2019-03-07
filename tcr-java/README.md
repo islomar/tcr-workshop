@@ -1,12 +1,6 @@
-# Esqueleto para Java 8
-Este es un proyecto para ser usado como esqueleto de las katas, usando las siguientes tecnologías:
+# Template for trying TCR in Java
 
-* Java 8
-* Maven
-* TestNG
-* Hamcrest
-
-## Requisitos
+## Prerequisites
 1. Tener instalado y configurado **Maven 3.x** (variables M2_HOME, M2, MAVEN_OPTS, PATH...)
    * https://maven.apache.org/install.html
    * Ejemplo en Ubuntu: https://www.vultr.com/docs/how-to-install-apache-maven-on-ubuntu-16-04
