@@ -21,6 +21,7 @@ There are several options for configuring your local environment so that you cod
     - A more agnostic solution: use the scripts included under the folder `/scripts` of this repo (or create your own).
     - You need to install `inotifywait`
         - E.g. in Ubuntu run `sudo apt-get install inotify-tools`
+    - Run `./watch.sh`
 
 
 ## Interesting links
