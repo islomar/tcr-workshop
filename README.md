@@ -2,6 +2,7 @@
 Information and instructions for trying the TCR workflow (test && commit || revert) as first described [here](https://medium.com/@kentbeck_7670/test-commit-revert-870bbd756864).
 
 This repository contains scripts for a Python and a Java example, each of them in their own folders.
+There is also a generic folder with scripts that could easily adapt to your specific language.
 
 
 ## Prerequisites

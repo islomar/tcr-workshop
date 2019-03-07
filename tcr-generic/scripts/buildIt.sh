@@ -1,0 +1,1 @@
+# Here you should write the command to check that the code has no syntax errors
