@@ -2,6 +2,7 @@
 Information and instructions for trying the TCR workflow (test && commit || revert) as first described [here](https://medium.com/@kentbeck_7670/test-commit-revert-870bbd756864).
 
 This repository contains scripts for a Python and a Java example, each of them in their own folders.
+
 There is also a generic folder with scripts that could be easily adapted to your specific language (`/tcr-generic`).
 
 
@@ -26,9 +27,9 @@ There is also a generic folder with scripts that could be easily adapted to your
 
 ## How to configure your environment for TCR
 There are several options for configuring your local environment so that you code gets automatically committed or reverted:
-* Option 1:
-    - Use a plugin on your favourite IDE. For example, in IntelliJ you have "Limited WIP": https://github.com/dkandalov/limited-wip
-* Option 2:
+* Option 1: IDE
+    - Use a plugin on your favourite IDE. For example, in IntelliJ you have "Limited WIP": https://github.com/dkandalov/limited-wip (though, to be honest, it didn't work too well for me...).
+* Option 2: scripts
     - A more agnostic solution: use the scripts included under the folder `/scripts` of each java/python folder of this repo (or create your own). The scripts are based on [these](https://medium.com/@tdeniffel/real-world-tcr-bb9958234bf8).
     - You need to install `inotifywait` or something similar
         - E.g. in Ubuntu run `sudo apt-get install inotify-tools`
