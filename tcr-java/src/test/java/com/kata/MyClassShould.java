@@ -8,6 +8,6 @@ import static org.hamcrest.core.Is.is;
 public class MyClassShould {
 
     public void assert_true() {
-        assertThat(1, is(1));
+        assertThat(2, is(2));
     }
 }
