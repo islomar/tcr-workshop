@@ -1,1 +1,1 @@
-./scripts/buildIt.sh && (./scripts/test.sh && ./scripts/commit.sh || ./scripts/reset.sh)
+./scripts/buildIt.sh && (./scripts/test.sh && ./scripts/commit.sh || ./scripts/revert.sh)

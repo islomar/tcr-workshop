@@ -1,1 +1,1 @@
-git checkout HEAD — src/main/
+git checkout HEAD — src/
