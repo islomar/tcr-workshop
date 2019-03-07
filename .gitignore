@@ -1,5 +1,7 @@
 # IDEs
 .vscode/
+*.iml
+.idea/
 
 # Python
 *.py[cod]
