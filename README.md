@@ -2,7 +2,7 @@
 Information and instructions for trying the TCR workflow (test && commit || revert) as first described [here](https://medium.com/@kentbeck_7670/test-commit-revert-870bbd756864).
 
 This repository contains scripts for a Python and a Java example, each of them in their own folders.
-There is also a generic folder with scripts that could easily adapt to your specific language.
+There is also a generic folder with scripts that could be easily adapted to your specific language (`/tcr-generic`).
 
 
 ## Prerequisites
@@ -11,12 +11,12 @@ There is also a generic folder with scripts that could easily adapt to your spec
 
 
 ## How to set up a basic test
-* [Here](https://github.com/swkBerlin/kata-bootstraps) you can find lots of templates for different languages
-* If you're having too many problems with your local set up, you can always use a browser solution like *Cyber-dojo*: https://cyber-dojo.org. Cyber-dojo allows you to code on a web browser in the main languages with different testing libraries configured.
+[Here](https://github.com/swkBerlin/kata-bootstraps) you can find lots of templates for different languages
 
 
 ## IDE configuration
-* **VERY IMPORTANTE**: Disable the "Auto-save".
+* **VERY IMPORTANT**: Disable the "Auto-save".
+    - IntelliJ: http://thehunk.blogspot.com/2015/07/disable-auto-save-in-jetbrains-ide.html
 * Be sure the file is being automatically refreshed (to see the file reverted when the tests fail).
     - VS Studio Code. Several options: 
         - enable "experimental file watcher" from File -> Settings. Unfortunately, it doesn't seem to work "too well".
@@ -29,16 +29,17 @@ There are several options for configuring your local environment so that you cod
 * Option 1:
     - Use a plugin on your favourite IDE. For example, in IntelliJ you have "Limited WIP": https://github.com/dkandalov/limited-wip
 * Option 2:
-    - A more agnostic solution: use the scripts included under the folder `/scripts` of each java/python folder of this repo (or create your own).
+    - A more agnostic solution: use the scripts included under the folder `/scripts` of each java/python folder of this repo (or create your own). The scripts are based on [these](https://medium.com/@tdeniffel/real-world-tcr-bb9958234bf8).
     - You need to install `inotifywait` or something similar
         - E.g. in Ubuntu run `sudo apt-get install inotify-tools`
         - On Mac OS X: https://superuser.com/questions/371354/inotifywait-alternative-command-for-mac
+        - If you use something different to `inotifywait`, modify your `watch.sh` file.
     - From the specific folder (e.g. `tcr-python`), run `./watch.sh`
 
 
-# How to squash
-Since the TCR scripts will be automatically commiting, you should first squash you commits before pushing to the remote branch.
-Here a reminder about how to do it: https://www.internalpointers.com/post/squash-commits-into-one-git
+## How to squash
+* Since the TCR scripts will be automatically commiting, you should first squash you commits before pushing to the remote branch.
+* Here a reminder about how to do it: https://www.internalpointers.com/post/squash-commits-into-one-git
 
 
 ## Interesting links
