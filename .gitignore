@@ -1,1 +1,8 @@
+# IDEs
+.vscode/
+
+# Python
 *.py[cod]
+
+# Java
+target/
