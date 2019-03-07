@@ -43,6 +43,10 @@ There are several options for configuring your local environment so that you cod
 * Here a reminder about how to do it: https://www.internalpointers.com/post/squash-commits-into-one-git
 
 
+## Bonus track
+There is a variant where, when failing the tests, before reverting, you stash and print your changes. That would allow you to check what was the difference between last time it was green and now. Here you have the proposal and the scripts: https://rachelcarmena.github.io/2018/11/13/test-driven-programming-workflows.html
+
+
 ## Interesting links
 * https://medium.com/@kentbeck_7670/test-commit-revert-870bbd756864 
 * https://medium.com/@kentbeck_7670/limbo-on-the-cheap-e4cfae840330 
