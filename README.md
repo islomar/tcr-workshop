@@ -5,12 +5,20 @@ Information and instructions for trying the TCR workflow (test && commit || reve
 ## Prerequisites
 * You need Git installed.
 * A basic test running (see "How to set up a basic test" section if you're having problems).
-* **IMPORTANT**: disable the auto-save in your IDE.
 
 
 ## How to set up a basic test
 * [Here](https://github.com/swkBerlin/kata-bootstraps) you can find lots of templates for different languages
 * If you're having too many problems with your local set up, you can always use a browser solution like *Cyber-dojo*: https://cyber-dojo.org. Cyber-dojo allows you to code on a web browser in the main languages with different testing libraries configured.
+
+
+## IDE configuration
+* **VERY IMPORTANTE**: Disable the "Auto-save".
+* Be sure the file is being automatically refreshed (to see the file reverted when the tests fail).
+    - VS Studio Code. Several options: 
+        - enable "experimental file watcher" from File -> Settings. Unfortunately, it doesn't seem to work "too well".
+        - Reload Window: Ctl + 5
+        - Or configure a shortcut for File revert (e.g. "Alt + Shift + r")
 
 
 ## How to configure your environment for TCR
@@ -22,6 +30,11 @@ There are several options for configuring your local environment so that you cod
     - You need to install `inotifywait`
         - E.g. in Ubuntu run `sudo apt-get install inotify-tools`
     - Run `./watch.sh`
+
+
+# How to squash
+Since the TCR scripts will be automatically commiting, you should first squash you commits before pushing to the remote branch.
+Here a reminder about how to do it: https://www.internalpointers.com/post/squash-commits-into-one-git
 
 
 ## Interesting links
