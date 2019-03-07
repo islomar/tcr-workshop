@@ -27,8 +27,9 @@ There are several options for configuring your local environment so that you cod
     - Use a plugin on your favourite IDE. For example, in IntelliJ you have "Limited WIP": https://github.com/dkandalov/limited-wip
 * Option 2:
     - A more agnostic solution: use the scripts included under the folder `/scripts` of this repo (or create your own).
-    - You need to install `inotifywait`
+    - You need to install `inotifywait` or something similar
         - E.g. in Ubuntu run `sudo apt-get install inotify-tools`
+        - On Mac OS X: https://superuser.com/questions/371354/inotifywait-alternative-command-for-mac
     - Run `./watch.sh`
 
 

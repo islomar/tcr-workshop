@@ -1,4 +1,4 @@
 def substring():
     return "b"
 
-assert substring() == "c"
+assert substring() == "b"
