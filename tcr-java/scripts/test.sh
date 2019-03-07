@@ -1,1 +1,1 @@
-python src/substring.py
+mvn test

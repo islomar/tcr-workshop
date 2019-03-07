@@ -1,1 +1,1 @@
-python -m compileall ./src
+mvn clean compile
