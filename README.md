@@ -44,7 +44,8 @@ There are several options for configuring your local environment so that you cod
 
 
 ## Bonus track
-There is a variant where, when failing the tests, before reverting, you stash and print your changes. That would allow you to check what was the difference between last time it was green and now. Here you have the proposal and the scripts: https://rachelcarmena.github.io/2018/11/13/test-driven-programming-workflows.html
+* There is a variant where, when failing the tests, before reverting, you stash and print your changes. That would allow you to check what was the difference between last time it was green and now. Here you have the proposal and the scripts: https://rachelcarmena.github.io/2018/11/13/test-driven-programming-workflows.html
+* Another more relaxed variant here: https://medium.com/@tdeniffel/tcr-variants-test-commit-revert-bf6bd84b17d3
 
 
 ## Interesting links
