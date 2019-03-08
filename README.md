@@ -12,7 +12,7 @@ There is also a generic folder with scripts that could be easily adapted to your
 
 
 ## How to set up a basic test
-[Here](https://github.com/swkBerlin/kata-bootstraps) you can find lots of templates for different languages
+[Here](https://github.com/swkBerlin/kata-bootstraps) you can find lots of templates for different languages. Plus, you have `tcr-python` and `tcr-java` folders ready in this repo.
 
 
 ## IDE configuration
@@ -30,22 +30,21 @@ There are several options for configuring your local environment so that you cod
 * Option 1: IDE
     - Use a plugin on your favourite IDE. For example, in IntelliJ you have "Limited WIP": https://github.com/dkandalov/limited-wip (though, to be honest, it didn't work too well for me...).
 * Option 2: scripts
-    - A more agnostic solution: use the scripts included under the folder `/scripts` of each java/python folder of this repo (or create your own). The scripts are based on [these](https://medium.com/@tdeniffel/real-world-tcr-bb9958234bf8).
-    - You need to install `inotifywait` or something similar
+    - A more agnostic solution: use the scripts included under the folder `/scripts` of each java/python/generic folder of this repo (or create your own). The scripts are based on [these](https://medium.com/@tdeniffel/real-world-tcr-bb9958234bf8).
+    - You need to install `inotifywait` or something similar depending on your OS:
         - E.g. in Ubuntu run `sudo apt-get install inotify-tools`
         - On Mac OS X: https://superuser.com/questions/371354/inotifywait-alternative-command-for-mac
         - If you use something different to `inotifywait`, modify your `watch.sh` file.
     - From the specific folder (e.g. `tcr-python`), run `./watch.sh`
 
 
-## How to squash
-* Since the TCR scripts will be automatically commiting, you should first squash you commits before pushing to the remote branch.
-* Here a reminder about how to do it: https://www.internalpointers.com/post/squash-commits-into-one-git
-
-
 ## Bonus track
 * There is a variant where, when failing the tests, before reverting, you stash and print your changes. That would allow you to check what was the difference between last time it was green and now. Here you have the proposal and the scripts: https://rachelcarmena.github.io/2018/11/13/test-driven-programming-workflows.html
 * Another more relaxed variant here: https://medium.com/@tdeniffel/tcr-variants-test-commit-revert-bf6bd84b17d3
+
+### How to squash
+* Since the TCR scripts will be automatically commiting, you should first squash you commits before pushing to the remote branch.
+* Here a reminder about how to do it: https://www.internalpointers.com/post/squash-commits-into-one-git
 
 
 ## Interesting links
@@ -58,3 +57,4 @@ There are several options for configuring your local environment so that you cod
 * https://medium.com/@tdeniffel/test-commit-revert-questions-answered-ddf012a1af97 
 * https://medium.com/@tdeniffel/all-downsides-and-open-questions-of-tcr-885bfee27146 
 * https://www.davidtanzer.net/david's%20blog/2019/03/06/test-commit-revert.html 
+* https://medium.com/@itortv/i-implemented-the-mars-rover-kata-through-tcr-test-commit-revert-and-these-are-my-7e11c40983a6
