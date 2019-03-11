@@ -16,6 +16,7 @@ Online calculator: http://php.bubble.ro/fibonacci/
 
 
 ## Expected behaviour
+```
 Input   |   Output
 0           0
 1           1
@@ -26,3 +27,4 @@ Input   |   Output
 6           8
 7           11
 15          610
+```
