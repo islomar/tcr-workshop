@@ -1,4 +1,4 @@
 def fib():
-    return "b"
+    return "c"
 
-assert fib() == "b"
+assert fib() == "c"
