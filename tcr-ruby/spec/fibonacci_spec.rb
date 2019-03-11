@@ -1,5 +1,5 @@
 
-def fixme()
+def fib()
 end
 
 describe "Calculate the Fibonacci of a number" do
