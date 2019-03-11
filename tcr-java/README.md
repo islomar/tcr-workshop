@@ -15,3 +15,8 @@ There are several ways to do it:
 
 * From you favourite IDE: run the test and see it going green
 * From the terminal, run `mvn clean test`: it should download all the dependencies and finish showing that the tests were successfully executed.
+
+
+## How to run TCR
+* Run the script `./watch.sh`
+* Only the business code gets reverted when failing the tests
