@@ -31,11 +31,13 @@ There are several options for configuring your local environment so that you cod
     - Use a plugin on your favourite IDE. For example, in IntelliJ you have "Limited WIP": https://github.com/dkandalov/limited-wip (though, to be honest, it didn't work too well for me...).
 * Option 2: scripts
     - A more agnostic solution: use the scripts included under the folder `/scripts` of each java/python/generic folder of this repo (or create your own). The scripts are based on [these](https://medium.com/@tdeniffel/real-world-tcr-bb9958234bf8).
-    - You need to install `inotifywait` or something similar depending on your OS:
-        - E.g. in Ubuntu run `sudo apt-get install inotify-tools`
-        - On Mac OS X: https://superuser.com/questions/371354/inotifywait-alternative-command-for-mac
-        - If you use something different to `inotifywait`, modify your `watch.sh` file.
-    - From the specific folder (e.g. `tcr-python`), run `./watch.sh`
+    - You can either:
+        - install `inotifywait` or something similar depending on your OS:
+            - E.g. in Ubuntu run `sudo apt-get install inotify-tools`
+            - On Mac OS X: https://superuser.com/questions/371354/inotifywait-alternative-command-for-mac
+            - If you use something different to `inotifywait`, modify your `watch.sh` file.
+        - install the `watch` utility (it exists in both Linux and Mac OSX), and use the `watch-generic.sh` script included under the folder `tcr-generic`
+    - To run the scripts, go to your specific folder (e.g. `tcr-python`), and run `./watch.sh` or `watch-generic.sh` (if using the generic one with `watch`)
 
 
 ## Bonus track
