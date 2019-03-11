@@ -18,17 +18,19 @@ There is also a generic folder with scripts that could be easily adapted to your
 ## IDE configuration
 * **VERY IMPORTANT**: Disable the "Auto-save".
     - IntelliJ: http://thehunk.blogspot.com/2015/07/disable-auto-save-in-jetbrains-ide.html
-* Be sure the file is being automatically refreshed (to see the file reverted when the tests fail).
+* Be sure the file is being **automatically refreshed** (to see the file reverted when the tests fail).
     - VS Studio Code. Several options: 
         - enable "experimental file watcher" from File -> Settings. Unfortunately, it doesn't seem to work "too well".
         - Reload Window: Ctl + 5
-        - Or configure a shortcut for File revert (e.g. "Alt + Shift + r")
+        - Or configure a shortcut for "File revert" (e.g. "Alt + Shift + r")
 
 
 ## How to configure your environment for TCR
 There are several options for configuring your local environment so that you code gets automatically committed or reverted:
 * Option 1: IDE
-    - Use a plugin on your favourite IDE. For example, in IntelliJ you have "Limited WIP": https://github.com/dkandalov/limited-wip (though, to be honest, it didn't work too well for me...).
+    - Use a plugin on your favourite IDE. 
+        - For example, in IntelliJ you have "Limited WIP": https://github.com/dkandalov/limited-wip (though, to be honest, it didn't work too well for me...).
+        - In VS Studio you could play with "Watched Path Autoexec": https://marketplace.visualstudio.com/items?itemName=hexix.watched-path-autoexec
 * Option 2: scripts
     - A more agnostic solution: use the scripts included under the folder `/scripts` of each java/python/generic folder of this repo (or create your own). The scripts are based on [these](https://medium.com/@tdeniffel/real-world-tcr-bb9958234bf8).
     - You can either:
