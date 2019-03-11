@@ -5,9 +5,10 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.Is.is;
 
 @Test
-public class MyClassShould {
+public class FibonacciShould {
 
     public void assert_true() {
-        assertThat(2, is(2));
+        //assertThat(Fibonacci.fib(), is(null));
+        assertThat(true, is(false));
     }
 }
