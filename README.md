@@ -41,6 +41,10 @@ There are several options for configuring your local environment so that you cod
     - To run the scripts, go to your specific folder (e.g. `tcr-python`), and run `./watch.sh` or `watch-generic.sh` (if using the generic one with `watch`)
 
 
+## Proposed exercise
+You can try the TCR workflow with the Fibonacci kata, included [here](Fibonacci-kata.md)
+
+
 ## Bonus track
 * There is a variant where, when failing the tests, before reverting, you stash and print your changes. That would allow you to check what was the difference between last time it was green and now. Here you have the proposal and the scripts: https://rachelcarmena.github.io/2018/11/13/test-driven-programming-workflows.html
 * Another more relaxed variant here: https://medium.com/@tdeniffel/tcr-variants-test-commit-revert-bf6bd84b17d3
