@@ -56,6 +56,9 @@ There are several options for configuring your local environment so that you cod
 * Since the TCR scripts will be automatically commiting, you should first squash you commits before pushing to the remote branch.
 * Here a reminder about how to do it: https://www.internalpointers.com/post/squash-commits-into-one-git
 
+### Scripts examples for JavaScript
+https://medium.com/@itortv/i-implemented-the-mars-rover-kata-through-tcr-test-commit-revert-and-these-are-my-7e11c40983a6
+
 
 ## Interesting links
 * https://medium.com/@kentbeck_7670/test-commit-revert-870bbd756864 
