@@ -2,9 +2,12 @@
 .vscode/
 *.iml
 .idea/
+.project
+.settings/
 
 # Python
 *.py[cod]
 
 # Java
 target/
+.classpath
