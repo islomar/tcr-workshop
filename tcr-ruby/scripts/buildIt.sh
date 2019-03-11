@@ -1,0 +1,1 @@
+ruby -c spec/fibonacci_spec.rb
