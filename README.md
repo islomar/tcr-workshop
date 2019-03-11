@@ -44,7 +44,8 @@ There are several options for configuring your local environment so that you cod
 
 
 ## Proposed exercise
-You can try the TCR workflow with the Fibonacci kata, included [here](Fibonacci-kata.md)
+* You can try the TCR workflow with the Fibonacci kata, included [here](Fibonacci-kata.md)
+* Another simple exercise to practice it is the [substring kata](Substring-kata.md)
 
 
 ## Bonus track
