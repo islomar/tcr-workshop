@@ -1,1 +1,1 @@
-python src/substring.py
+python src/fibonacci.py
