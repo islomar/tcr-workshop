@@ -3,6 +3,8 @@ Information and instructions for trying the TCR workflow (test && commit || reve
 
 This repository contains scripts for a Python and a Java example, each of them in their own folders.
 
+[Here](https://speakerdeck.com/islomar/tcr-workshop) you can find the slides used for a worshop facilitated with [Joe Bew](https://twitter.com/joebew42) in Stockholm.
+
 There is also a generic folder with scripts that could be easily adapted to your specific language (`/tcr-generic`).
 
 
