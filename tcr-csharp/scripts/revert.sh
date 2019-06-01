@@ -1,1 +1,1 @@
-git checkout HEAD
+git reset --hard tcr-chsarp
