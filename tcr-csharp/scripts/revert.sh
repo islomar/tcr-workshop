@@ -1,1 +1,1 @@
-git checkout HEAD -- src/tcr-app
+git checkout HEAD
