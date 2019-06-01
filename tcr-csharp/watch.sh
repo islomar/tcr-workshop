@@ -1,1 +1,1 @@
-fswatch -o --event=Updated -e ".*" -i "\\.ext$" -r ./src/tcr-app | ./tcr.sh
+watchexec -i target ./tcr.sh -w src/tcr-app

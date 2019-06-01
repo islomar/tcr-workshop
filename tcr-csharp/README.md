@@ -1,9 +1,16 @@
-# Generic template for TCR
+# Template for trying TCR in DotNet Core
 
-You only need to adapt two scripts to your language:
-* `buildIt.sh`
-* `test.sh`
+## Prerequisites
+1. You need **.Net Core  2.2.x** 
+   * https://dotnet.microsoft.com/download
+2. If you are using Mac OS you should install **watchexec**
+    * https://github.com/watchexec/watchexec
+3. Connectiviy to the Internet!
 
-Then, if you're on a Linux system, you can use the `watch.sh` script (you need to install inotify-tools first). A more generic solution, working in both Linux and Mac OSX, would be the `watch-generic.sh` script (you just need to install hte `watch` utility, e.g. `brew install watch` in OSX).
 
-Finally, just include your code under the /src folder or change that path in the `watch.sh` and `revert.sh` scripts.
+## How to verify that everything works
+From the terminal, run `dotnet build` or `dotnet test`: it should download all the dependencies and finish showing that the tests were successfully executed.
+
+## How to run TCR
+* Run the script `./watch.sh`
+* Only the business code gets reverted when failing the tests
