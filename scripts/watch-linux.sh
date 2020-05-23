@@ -5,5 +5,5 @@ set -eux -o pipefail
 while true
 do
     inotifywait -r -e modify $(PWD)
-    $(PWD)/../tcr.sh
+    $(PWD)/../scripts/tcr.sh
 done

@@ -38,7 +38,7 @@ There are several options for configuring your local environment so that you cod
     - You can either:
         - install `inotifywait` or something similar depending on your OS:
             - E.g. in Ubuntu run `sudo apt-get install inotify-tools`
-            - On Mac OS X: https://superuser.com/questions/371354/inotifywait-alternative-command-for-mac
+            - On Mac OS X: `brew install fswatch`
             - On Windows, one option is to use Cygwin and run the Linux scripts.
             - If you use something different to `inotifywait`, modify your `watch.sh` file.
         - install the `watch` utility (it exists in both Linux and Mac OSX), and use the `watch-generic.sh` script included under the folder `tcr-generic`

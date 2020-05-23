@@ -5,5 +5,5 @@ set -eux -o pipefail
 while true
 do
     fswatch --recursive --one-event $(PWD)
-    $(PWD)/../tcr.sh || true
+    $(PWD)/../scripts/tcr.sh || true
 done
