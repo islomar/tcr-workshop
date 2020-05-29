@@ -1,9 +1,9 @@
 # TCR workshop
 Information and instructions for trying the TCR workflow (test && commit || revert) as first described [here](https://medium.com/@kentbeck_7670/test-commit-revert-870bbd756864).
 
-This repository contains scripts for a Python, Java and a NetCore example, each of them in their own folders.
+This repository contains scripts for Python, Java, NetCore, Elixir, Ruby and Rust examples, each of them in their own folders.
 
-[Here](https://speakerdeck.com/islomar/tcr-workshop) you can find the slides used for a worshop facilitated with [Joe Bew](https://twitter.com/joebew42) in Stockholm.
+[Here](https://speakerdeck.com/islomar/tcr-workshop) you can find the slides used for a workshop facilitated with [Joe Bew](https://twitter.com/joebew42) in Stockholm.
 
 There is also a generic folder with scripts that could be easily adapted to your specific language (`/tcr-generic`).
 
@@ -14,7 +14,7 @@ There is also a generic folder with scripts that could be easily adapted to your
 
 
 ## How to set up a basic test
-[Here](https://github.com/swkBerlin/kata-bootstraps) you can find lots of templates for different languages. Plus, you have `tcr-python`, `tcr-java` and `tcr-csharp` folders ready in this repo.
+[Here](https://github.com/swkBerlin/kata-bootstraps) you can find lots of templates for different languages. Plus, you have `tcr-python`, `tcr-java`, `tcr-csharp`, `tcr-elixir`, `tcr-rust` and `tcr-ruby` folders ready in this repo.
 
 
 ## IDE configuration
