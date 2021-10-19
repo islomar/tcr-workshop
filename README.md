@@ -14,7 +14,7 @@ There is also a generic folder with scripts that could be easily adapted to your
 
 
 ## How to set up a basic test
-[Here](https://github.com/swkBerlin/kata-bootstraps) you can find lots of templates for different languages. Plus, you have `tcr-python`, `tcr-java`, `tcr-csharp`, `tcr-elixir`, `tcr-rust` and `tcr-ruby` folders ready in this repo.
+[Here](https://github.com/swkBerlin/kata-bootstraps) you can find lots of templates for different languages. Plus, you have `tcr-python`, `tcr-java`, `tcr-csharp`, `tcr-elixir`, `tcr-rust`, `tcr-ruby` and `tcr-go` folders ready in this repo.
 
 
 ## IDE configuration
