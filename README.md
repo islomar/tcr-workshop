@@ -63,13 +63,17 @@ https://medium.com/@itortv/i-implemented-the-mars-rover-kata-through-tcr-test-co
 
 
 ## Interesting links
+* Reference from Kent Beck: https://increment.com/testing/testing-the-boundaries-of-collaboration/
 * https://medium.com/@kentbeck_7670/test-commit-revert-870bbd756864 
 * https://medium.com/@kentbeck_7670/limbo-on-the-cheap-e4cfae840330 
 * https://rachelcarmena.github.io/2018/11/13/test-driven-programming-workflows.html 
 * https://medium.com/@barlindhaug/how-to-test-commit-revert-e850cd6e2520 
 * https://blog.adrianbolboaca.ro/2013/03/taking-baby-steps/ 
-* Kent Beck screencast: https://www.youtube.com/watch?v=ZrHBVTCbcE0 
 * https://medium.com/@tdeniffel/test-commit-revert-questions-answered-ddf012a1af97 
 * https://medium.com/@tdeniffel/all-downsides-and-open-questions-of-tcr-885bfee27146 
 * https://www.davidtanzer.net/david's%20blog/2019/03/06/test-commit-revert.html 
 * https://medium.com/@itortv/i-implemented-the-mars-rover-kata-through-tcr-test-commit-revert-and-these-are-my-7e11c40983a6
+
+### Screencasts
+* [Kent Beck: Understanding Legacy Code with TCR (test && commit || revert)](https://www.youtube.com/watch?v=FFzHOyFeovE) - Video duration: 12 min.
+* [Kent Beck: substring, TCR style](https://www.youtube.com/watch?v=ZrHBVTCbcE0)
