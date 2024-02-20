@@ -34,15 +34,18 @@ There are several options for configuring your local environment so that you cod
         - For example, in IntelliJ you have "Limited WIP": https://github.com/dkandalov/limited-wip (though, to be honest, it didn't work too well for me...).
         - In VS Studio you could play with "Watched Path Autoexec": https://marketplace.visualstudio.com/items?itemName=hexix.watched-path-autoexec
 * Option 2: scripts
-    - A more agnostic solution: use the scripts included under the folder `/scripts` of each java/python/generic folder of this repo (or create your own). The scripts are based on [these](https://medium.com/@tdeniffel/real-world-tcr-bb9958234bf8).
-    - You can either:
-        - install `inotifywait` or something similar depending on your OS:
-            - E.g. in Ubuntu run `sudo apt-get install inotify-tools`
-            - On Mac OS X: https://superuser.com/questions/371354/inotifywait-alternative-command-for-mac
-            - On Windows, one option is to use Cygwin and run the Linux scripts.
-            - If you use something different to `inotifywait`, modify your `watch.sh` file.
-        - install the `watch` utility (it exists in both Linux and Mac OSX), and use the `watch-generic.sh` script included under the folder `tcr-generic`
-    - To run the scripts, go to your specific folder (e.g. `tcr-python`), and run `./watch.sh` or `watch-generic.sh` (if using the generic one with `watch`)
+    - A more agnostic solution: use the scripts included under the folder `/scripts` of each language-specific folder of this repo (or create your own). The scripts are based on [these](https://medium.com/@tdeniffel/real-world-tcr-bb9958234bf8).
+    - You'll need:
+        - Linux: install `inotifywait` e.g. in Ubuntu run `sudo apt-get install inotify-tools`
+        - Mac OS X: `brew install fswatch`
+        - Windows: one option is to use Cygwin and run the Linux scripts.
+        - Alternately, install the `watch` utility (it exists in both Linux and Mac OS X)
+    - To run the scripts, go to your specific folder (e.g. `tcr-python`), and run the watch script
+        - `../scripts/watch-linux.sh` for `inotifywait`
+        - `../scripts/watch-osx.sh` for `fswatch`
+        - `../scripts/watch-generic.sh` for `watch`
+
+    If your OS doesn't have any of these options, then you'll need to find a similar watchdog tool and make a new watch script.
 
 
 ## Proposed exercise

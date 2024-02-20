@@ -6,6 +6,6 @@
 
 ## How to run it
 1. Run `rspec --init`
-2. Run `./watch.sh`
+2. Run relevant watch script (see README)
 
 It should work! :-)
